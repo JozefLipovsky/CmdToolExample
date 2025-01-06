@@ -10,7 +10,11 @@ struct CmdToolPlugin: CommandPlugin {
         process.executableURL = tool.url
         process.arguments = arguments
 
+        print("\(String(describing: type(of: self))) performCommand arguments: \(arguments.joined(separator: " "))")
+
         try process.run()
         process.waitUntilExit()
+
+        print("\(String(describing: type(of: self))) finished performCommand")
     }
 }
