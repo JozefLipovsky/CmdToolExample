@@ -54,11 +54,11 @@
       <CommandLineArguments>
          <CommandLineArgument
             argument = "add-target"
-            isEnabled = "NO">
+            isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "update-tools-version"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
    </LaunchAction>
