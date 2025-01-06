@@ -1,3 +1,6 @@
+https://forums.swift.org/t/spm-command-process-gets-stuck/77026
+
+
 1. Xcode - cmd-tool update-tools-version / `swift package tools-version --set 5.9` working as expected. ✅
 
 https://github.com/user-attachments/assets/3a6b71ba-181d-47eb-9706-0195f24b8e0f
