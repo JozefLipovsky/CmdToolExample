@@ -6,7 +6,8 @@ public struct Commands: ParsableCommand {
         abstract: "A Swift command-line tool example.",
         shouldDisplay: true,
         subcommands: [
-            UpdateToolsVersion.self
+            UpdateToolsVersion.self,
+            AddTarget.self
         ]
     )
 
