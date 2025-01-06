@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "CmdTool",
     platforms: [
-        .macOS(.v14)
+        .macOS(.v13)
     ],
     products: [
         .plugin(
